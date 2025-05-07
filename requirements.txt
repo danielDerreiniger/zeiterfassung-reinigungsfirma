@@ -1,3 +1,2 @@
-import streamlit as st
-import psycopg2
-from datetime import datetime
+streamlit==1.31.0
+psycopg2-binary==2.9.9
