@@ -3,7 +3,7 @@ import psycopg2
 from datetime import datetime
 
 # Datenbankverbindung
-DATABASE_URL = st.secrets["database"]["url"]
+DATABASE_URL = st.secrets["DATABASE_URL"]
 
 # Datenbank initialisieren
 def init_db():
