@@ -1,5 +1,6 @@
 import streamlit as st
 import psycopg2
+from datetime import datetime
 
 # Datenbankverbindung
 DATABASE_URL = st.secrets["database"]["url"]
